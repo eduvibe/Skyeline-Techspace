@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    background-color: #d3d3d3d7;
+    height: 100vh;
+    display: flex;
+}
+
+.sign-up{
+    margin-top: 4rem;
+    padding-inline: 2rem;
+    background-color: aliceblue;
+    height: 70%;
+    margin-left: 13rem;
+    position: relative;
+    border-bottom-left-radius: 3mm;
+    border-top-left-radius: 3mm;
+}
+.sign-up h4{
+    padding-inline: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.sign-in{
+    margin-left: 0;
+    margin-top: 4rem;
+    padding-inline: 2rem;
+    background-color: aliceblue;
+    height: 70%;
+    border-bottom-right-radius: 3mm;
+    border-top-right-radius: 3mm;
+    position: relative;
+    background-image: url("/images/background.webp");
+    }
+
+.sign-in h4{
+    padding-top: 3rem;
+    
+}
+
+/* .style{
+    width: 30%;
+    height: 20%;
+    background-color: blueviolet;
+    position:absolute;
+    border-radius: 30%;
+} */
+
+.sign-up input{
+    padding-inline: 3mm;
+    width: 15rem;
+    height: 1.5rem;
+    padding-block: 2mm;
+    border-radius: 1cm;
+    margin-bottom: 3mm;
+    border: none;
+   box-shadow: 2px 1px 3px #841ac2;
+}
+
+.sign-up .terms{
+    box-shadow: none;
+    width: 13px;
+}
+
+.sign-up button{
+    color: white;
+    background-color: #841ac2;
+    padding-inline: 3mm;
+    padding-block: 2mm;
+    border-radius: 1cm;
+    border: none;
+    margin-block: 0.4rem;
+    font-size: 1em;
+    margin-left: 4rem;
+}
+
+.sign-up p{
+    font-size: 11pt;
+}
+
+.checkbox{
+    display: flex;
+
+}
+.checkbox h5{
+ font-size: 08pt;
+ padding-left: 9px;
+ padding-top: 7px;
+}
+
+.sign-up a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+.sign-in h4{
+    padding-top: 10rem;
+    padding-inline: 10rem;
+}
+
+.sign-in p{
+    margin-left: 5rem;
+    padding-top: 2rem;
+}
+
+.sign-in button{
+    color: #841ac2;
+    background-color: transparent;
+    padding-inline: 10mm;
+    padding-block: 2mm;
+    border-radius: 1cm;
+    border-color: #841ac2;
+    margin-block: 0.4rem;
+    font-size: 1.5em;
+    margin-left: 10rem;
+    margin-top: 2rem;
+    font-weight: 700;
+   
+}
+
+.sign-in button:hover{
+    color: #841ac2;
+    border-color: #fff;
+}
+
+.sign-up button:hover{
+    color: #841ac2;
+    border: 2px solid;
+    background-color: transparent;
+}
